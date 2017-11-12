@@ -1,0 +1,32 @@
+{
+  "name": "my_project",
+  "version": "1.0.0",
+  "description": "learning webpack",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "moment": "^2.19.2",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knigotopia/my_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knigotopia/my_project/issues"
+  },
+  "homepage": "https://github.com/Knigotopia/my_project#readme"
+}
